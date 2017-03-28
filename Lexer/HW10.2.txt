@@ -1,0 +1,84 @@
+#Jasmine Jans
+#4/17/16
+#OPL Bowers
+
+
+#Program 1 fill a list with numbers in range 1-50, and then print them
+
+x=1;
+list = [];
+while x<=50 do
+ list[x] = x;
+ x = x+1;
+end
+while x > 0 do
+ print(list[x]);
+ x = x-1;
+end
+
+#Program 2 Returns true if input values are equal
+
+var = readint(“enter a number”);
+var2 = readint(“enter another number”);
+if var2 == var1 
+ print(“these are equal”);
+elif var1 >= var2
+ print(“the first is bigger”);
+else 
+ println(“the second is bigger”);
+end
+
+#Program 3 finds the product and sum of numbers
+
+var1 = readint(“enter a number”);
+var2 = readint(“enter another number”);
+var3 = var1 * var2;
+var4 = var1 + var2;
+println(“the product of these integers is “ + var3);
+println(“the sum of these integers is “ + var4);
+
+#Program 4 asks you to guess my favorite animal and color
+
+println(“Try and guess my favorite animal and color!”);
+answered = false;
+while answered == false do
+ var1 = readstr(“enter an animal”);
+ var2 = readstr(“enter a color”);
+ if var1 == “rabbit” and var2 == “purple”
+  println(“you guessed my favorite animal and color!”);
+  answered = true;
+ elif var1 == “rabbit”;
+  println(“you guess my favorite animal, but what about the color?”);
+ elif var2 == “purple”
+  println(“you guessed my favorite color but what about the animal?”);
+ else
+  println(“try try again! both are wrong!”);
+ end
+end
+
+#Program 5 finds the average of 2, 3 or 4 numbers based on user input
+
+println(“find the average of 2, 3 or 4 numbers!”);
+var = readint(“enter the number of numbers you wish to find the average for!”);
+
+if var == 2
+ var1 = readint(“enter a number”);
+ var2 = readint(“enter another number”);
+ avg = (var1 + var2) / 2;
+ println(“the average of these numbers is: “ avg);
+elif var == 3
+ var1 = readint(“enter a number”);
+ var2 = readint(“enter another number”);
+ var3 = readint(“enter another number”);
+ avg = (var1 + var2 + var3) / 3;
+ println(“the average of these numbers is: “ avg);
+elif var == 4
+ var1 = readint(“enter a number”);
+ var2 = readint(“enter another number”);
+ var3 = readint(“enter another number”);
+ var3 = readint(“enter another number”);
+ avg = (var1 + var2 + var3 + var4) / 4;
+ println(“the average of these numbers is: “ avg);
+else
+ println(“this is not a valid input”);
+end

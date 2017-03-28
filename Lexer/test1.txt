@@ -1,0 +1,25 @@
+x = [];
+print("hello world");
+
+x = readint("enter");
+println("hi");
+
+print("hello world");
+
+x = readint("enter an int");
+print("hello");
+x = [];
+ys = [1,2, 3,4];
+bs = [true, false, true];
+
+if 1 > 2 or 2 > 3 then
+x = 1;
+elif false then
+println("hi");
+else
+println("hi");
+end
+
+while x == 1 and x < 3 do
+x = x+1;
+end

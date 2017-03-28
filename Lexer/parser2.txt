@@ -1,0 +1,6 @@
+
+x = readint("Enter an int: ");
+
+y = readstr("Enter a string: ");
+
+

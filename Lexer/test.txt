@@ -1,0 +1,11 @@
+if True then
+x = 1;
+println("hi");
+elif False then
+x = 2;
+print("hey");
+else 
+x = 3;
+print("hello");
+end
+

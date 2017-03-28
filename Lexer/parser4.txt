@@ -1,0 +1,31 @@
+if x < 5 then
+  y = 10;
+  z = 20;
+end
+
+if x < 5 then
+  y = 10;
+  z = 20;
+elif x > 5 then
+  y = 10;
+  z = 20;
+elif x == 0 then
+  y = 10;
+  z = 20;
+else
+  y = 10;
+  z = 20;
+end
+
+if x < 5 or x > 10 or x == 10 or x != 10 or x <= 10 or x >= 10 then
+  y = 10;
+  z = 20;
+end
+
+if x < 0 and x > 0 or not x < 0 and x > 0 then
+  y = 10;
+  z = 20;
+end
+
+
+
